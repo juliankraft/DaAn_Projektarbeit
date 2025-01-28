@@ -29,7 +29,7 @@ fi
 echo "Start Script"
 echo "#############################################"
 
-Rscript /cfs/earth/scratch/kraftjul/DaAn_Projektarbeit/code/analyse_step1.R
+Rscript /cfs/earth/scratch/kraftjul/DaAn_Projektarbeit/code/analyse.R
 
 echo "#############################################"
 echo "Complete Script"
