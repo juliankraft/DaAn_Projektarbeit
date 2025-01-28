@@ -2,8 +2,9 @@
 #SBATCH --job-name=get_data_jk
 #SBATCH --mail-type=all
 #SBATCH --nodes=2
-#SBATCH --ntasks-per-node=6
-#SBATCH --cpus-per-task=2
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=128G
 #SBATCH --time=12:00:00
 #SBATCH --partition=earth-1
 
